@@ -29,7 +29,7 @@ if preguntas.any?
     while continuaAdivinando
       intentos += 1
       puts
-      print "Adivininar: "
+      print "Adivinar: "
       respuesta = gets.chomp.to_s
       if respuesta.downcase == p[:respuesta].downcase
         correctas += 1
